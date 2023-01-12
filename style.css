@@ -1,84 +1,118 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-body {display: flex;
-    min-height: 100vh;}
-.nav-bar, .section-2 { width:100%;display:flex;margin-right: 50px;}
 
-.nav-bar{margin-left: 10px;}
-
-.logo-name  {font-family: 'Roboto';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;width: 70%;}
-.icon:hover {background-color: deepskyblue;}
-.icon:active{color: gray;}
-.icon:enabled {color: ghostwhite;}
-.menu-button {margin-left: 100%;align-self: center;flex-shrink: 10;}
-.toggle {width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    border-radius: 5px;
+body {
+  display: flex;
+  min-height: 100vh;
 }
-.primary-text {width: 327px;
-    height: 124px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #FF6B00;
-    flex: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    flex-grow: 0;}
-.supporting-text{
-    margin: 5px;
-    width: 1%px;
-    height: 27px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color: #FFF5E1;
-    flex: none;
-    flex-grow: 0;}
 
-.section-2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    gap: 12px;
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    left: 0px;
-    top: 92px;
-    background: #1C1A19;}
-.description {
-    width: 327px;
-    height: 123px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0;}
-.icons {
-    display: flex;
-    order: 5;}
-.images{
-    order:5;
-    display: inline;}
+.nav-bar,
 .section-2 {
-    background-image: url("Group.png");
-    z-index: 1;
-    background-repeat: no-repeat;
-    background-position: bottom 45% right 10px;}
+  width: 100%;
+  display: flex;
+  margin-right: 50px;
+}
+
+.nav-bar { margin-left: 10px; }
+
+.logo-name {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 70%;
+}
+
+.icon:hover { background-color: deepskyblue; }
+.icon:active { color: gray; }
+.icon:enabled { color: ghostwhite; }
+
+.menu-button {
+  margin-left: 100%;
+  align-self: center;
+  flex-shrink: 10;
+}
+
+.toggle {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+
+.primary-text {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-grow: 0;
+}
+
+.supporting-text {
+  margin: 5px;
+  height: 27px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  flex-grow: 0;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
+  background-image: url("Group.png");
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: bottom 45% right 10px;
+}
+
+.description {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  order: 5;
+}
+
+.images {
+  order: 5;
+  display: inline;
+}

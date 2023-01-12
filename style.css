@@ -118,10 +118,10 @@ body {
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul {
-    position: relative;
-    margin-left: 10px;
+  position: relative;
+  margin-left: 10px;
 }

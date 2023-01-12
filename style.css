@@ -116,3 +116,12 @@ body {
   order: 5;
   display: inline;
 }
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    position: relative;
+    margin-left: 10px;
+}

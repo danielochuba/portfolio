@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+body {
+  overflow-x: hidden;
+}
+
 .body {
   display: flex;
   min-height: 100vh;
@@ -194,15 +198,17 @@ a {
 }
 
 .card {
-  background-image: url("Img\ Placeholder\ \(1\).png");
+  background-image: url("img_placeholder_1.png");
   background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cards {
   display: grid;
   row-gap: 30px;
   margin: auto;
-  margin-left: 30%;
+  margin-left: 35px;
   margin-top: 90px;
 }
 
@@ -218,6 +224,12 @@ a {
   align-items: center;
   text-align: center;
   font-weight: 500;
+}
+
+.see-project:hover {
+  background: #eecdb5;
+  border: 0.5px solid #ff6b00;
+  color: #ff6b00;
 }
 
 .Title-post {
@@ -321,10 +333,15 @@ a {
   color: #ff6b00;
 }
 
+.offer {
+  display: grid;
+  row-gap: 50px;
+  position: relative;
+  top: 250px;
+}
+
 .About {
   position: relative;
-  width: 375px;
-  left: 5px;
   top: 200px;
   background: #1c1a19;
   display: flex;
@@ -334,7 +351,9 @@ a {
   padding-bottom: 200px;
   height: fit-content;
   padding-top: 50px;
-  margin-left: 10px;
+  width: 410px;
+  left: 0;
+  margin-left: -5px;
 }
 
 .descripton {
@@ -426,7 +445,7 @@ a {
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   align-self: flex-start;
-  margin-left: 25px;
+  margin-left: 43px;
   margin-top: 35px;
 }
 
@@ -436,7 +455,7 @@ a {
   background-image: url(./illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: 31%;
+  top: 27%;
   left: 55%;
 }
 
@@ -448,9 +467,4 @@ a {
   position: absolute;
   width: 290px;
   top: 680px;
-}
-
-.offer {
-  position: relative;
-  top: 250px;
 }

@@ -26,8 +26,8 @@ body {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .section-2 {
@@ -134,7 +134,7 @@ header {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #fff;
   flex: none;
@@ -193,7 +193,14 @@ ul {
 }
 
 .tag-link {
-  margin-left: 20px;
+  margin-left: -40px;
+  display: flex;
+  align-content: space-between;
+}
+
+.tag-link-1 {
+  margin-left: -40px;
+  display: flex;
 }
 
 .tag:hover {
@@ -344,7 +351,7 @@ a {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 45px;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -355,6 +362,10 @@ a {
   row-gap: 60px;
   position: relative;
   top: 250px;
+}
+
+p {
+  font-size: 12px;
 }
 
 .About {
@@ -372,19 +383,6 @@ a {
   left: 0;
   margin-left: -5px;
   overflow-x: hidden;
-}
-
-.descripton {
-  width: 327px;
-  height: 148px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000;
-  flex: none;
-  flex-grow: 0;
 }
 
 .heading li {
@@ -428,7 +426,7 @@ a {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 13px;
   line-height: 43px;
   align-items: center;
   text-align: center;
@@ -462,7 +460,7 @@ a {
   background-image: url(./illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: 24%;
+  top: 22%;
   left: 55%;
 }
 
@@ -472,7 +470,7 @@ a {
 }
 
 .heading > ul > li {
-  font-size: 1em;
+  font-size: 5px;
   vertical-align: middle;
   text-align: center;
   padding: 5px 0;
@@ -489,8 +487,21 @@ h3 {
   height: 10px;
 }
 
+.descripton {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #000;
+  flex: none;
+  flex-grow: 0;
+}
+
 .rule-2 {
   position: absolute;
   width: 290px;
-  top: 680px;
+  top: 615px;
 }

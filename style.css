@@ -22,6 +22,14 @@ body {
   justify-content: flex-start;
 }
 
+.head {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .section-2 {
   max-height: 55%;
   display: flex;
@@ -170,13 +178,13 @@ ul {
   order: 0;
   flex-grow: 0;
   margin-top: 150px;
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .rule {
   margin-right: auto;
   width: 310px;
-  margin-left: 45px;
+  margin-left: 35px;
 }
 
 .tag {
@@ -202,6 +210,7 @@ a {
   background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
+  width: 350px;
 }
 
 .cards {
@@ -210,6 +219,10 @@ a {
   margin: auto;
   margin-left: 35px;
   margin-top: 90px;
+}
+
+.card-1 {
+  width: 350px;
 }
 
 .see-project {
@@ -304,7 +317,7 @@ a {
 
 .see-project-1 {
   position: relative;
-  width: 100px;
+  width: 150px;
   padding: 7px;
   height: fit-content;
   background: #ff6b00;
@@ -312,9 +325,13 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.img-3 {
+  margin-left: -5px;
 }
 
 .tag-link-1 a {
@@ -335,7 +352,7 @@ a {
 
 .offer {
   display: grid;
-  row-gap: 50px;
+  row-gap: 60px;
   position: relative;
   top: 250px;
 }
@@ -348,12 +365,13 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   height: fit-content;
   padding-top: 50px;
   width: 410px;
   left: 0;
   margin-left: -5px;
+  overflow-x: hidden;
 }
 
 .descripton {
@@ -387,18 +405,6 @@ a {
   text-align: justify;
 }
 
-.About ul .list-1 {
-  list-style-type: '🔶';
-}
-
-.About ul .list-2 {
-  list-style-type: '🟧';
-}
-
-.About ul .list-3 {
-  list-style-type: '🟠';
-}
-
 .list {
   row-gap: 20px;
   display: grid;
@@ -406,8 +412,9 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin-top: 11px;
+  margin-top: -65px;
   text-align: justify;
+  width: fit-content;
 }
 
 .see-project-1 a,
@@ -455,8 +462,28 @@ a {
   background-image: url(./illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: 27%;
+  top: 24%;
   left: 55%;
+}
+
+.heading > ul {
+  list-style: none;
+  align-items: center;
+}
+
+.heading > ul > li {
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+  padding: 5px 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600px;
+  color: #fff;
+  font-style: ;
 }
 
 .empty {

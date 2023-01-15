@@ -6,7 +6,7 @@
   
   
 
-  <h3><b>Portfolio: set up mobile first README</b></h3>
+  <h3><b>Portfolio: finish mobile version README</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 
 
 
-# 📖 [Portfolio: set up mobile first] <a name="about-project"></a>
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio: set up mobile first]** is the first project of the Microverse Program, Which is the portfolio project focusing only on the Nav-bar and contact info .
+**[Portfolio: finish mobile version]** is the first project of the Microverse Program, Which is the portfolio project, The enhanced mobile version.
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS</a>
 

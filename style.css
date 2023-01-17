@@ -533,7 +533,7 @@ h3 {
   border-bottom: 1px solid gray;
   outline: 0;
   font-size: 10px;
-  color: white;
+  color: rgb(14, 12, 12);
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;

@@ -559,12 +559,37 @@ form {
 .submit {
   padding: 7px;
   height: fit-content;
+  background: #fc8e40;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+}
+
+.submit:hover {
+  padding: 7px;
+  height: fit-content;
   background: #ff6b00;
   display: flex;
   justify-content: center;
   font-weight: 500;
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+}
+
+.submit:disabled {
+  padding: 7px;
+  height: fit-content;
+  background: #f59551;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  border: 1px solid white;
 }
 
 .icons-1 {

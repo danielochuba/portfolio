@@ -505,7 +505,8 @@ h3 {
   width: 290px;
   top: 615px;
 }
-.description-2{
+
+.description-2 {
   margin: auto;
   text-align: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -513,10 +514,9 @@ h3 {
   height: 180px;
   width: 327;
   line-height: 30px;
-  color: #172B4D;
-  
-
+  color: #172b4d;
 }
+
 .section_3 {
   margin-top: 300px;
   display: flex;
@@ -526,8 +526,9 @@ h3 {
   margin-left: 24px;
 }
 
-#name-input, #email-input {
-  font-family: 'Inter';
+#name-input,
+#email-input {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   width: 300px;
   border: 0;
   border-bottom: 1px solid gray;
@@ -538,35 +539,35 @@ h3 {
   background: transparent;
   transition: border-color 0.2s;
 }
-form{
+
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 10px;
 }
+
 #more-text {
   border: 0;
   color: #000;
   background: hsl(0, 11%, 95%);
   font-style: normal;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
+
 .submit {
-  
-  
   padding: 7px;
   height: fit-content;
-  background: #FF6B00;
+  background: #ff6b00;
   display: flex;
   justify-content: center;
   font-weight: 500;
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  
-  
 }
-.icons-1{
+
+.icons-1 {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -575,7 +576,8 @@ form{
   align-items: center;
   margin-top: 50px;
 }
-.section-4{
+
+.section-4 {
   display: flex;
   margin-left: 70px;
 }

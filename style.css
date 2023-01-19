@@ -45,7 +45,7 @@ body {
   left: 0;
   top: 92px;
   background: #1c1a19;
-  background-image: url("Group.png");
+  background-image: url("./img/Group.png");
   z-index: 1;
   background-repeat: no-repeat;
   background-position: bottom -50px right 1px;
@@ -213,7 +213,7 @@ a {
 }
 
 .card {
-  background-image: url("img_placeholder_1.png");
+  background-image: url("./img/img_placeholder_1.png");
   background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
@@ -457,7 +457,7 @@ p {
 .image-2 {
   height: 400px;
   width: 400px;
-  background-image: url(./illustration-about-me-mobile.png);
+  background-image: url(./img/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 22%;

@@ -30,9 +30,10 @@ body {
   line-height: 20px;
 }
 
-.menu-items{
-    display: none;
+.menu-items {
+  display: none;
 }
+
 .section-2 {
   max-height: 55%;
   display: flex;
@@ -114,9 +115,9 @@ header {
   margin-top: 5px;
   margin-bottom: 5px;
   flex-grow: 0;
-
 }
-.header-image{
+
+.header-image {
   display: none;
 }
 
@@ -134,7 +135,6 @@ header {
   flex: none;
   flex-grow: 0;
 }
-
 
 .icons {
   display: flex;
@@ -483,7 +483,6 @@ h3 {
   height: 10px;
 }
 
-
 .description {
   width: 327px;
   height: 123px;
@@ -499,7 +498,6 @@ h3 {
   margin: 0;
   margin-top: 3%;
 }
-
 
 .rule-2 {
   position: absolute;
@@ -607,9 +605,11 @@ form {
   display: flex;
   margin-left: 70px;
 }
-.desk{
+
+.desk {
   display: none;
 }
+
 .mob {
   display: inline-flex;
 }

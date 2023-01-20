@@ -30,6 +30,9 @@ body {
   line-height: 20px;
 }
 
+.menu-items{
+    display: none;
+}
 .section-2 {
   max-height: 55%;
   display: flex;
@@ -104,13 +107,17 @@ header {
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  line-height: 64px;
+  line-height: 115%;
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
   margin-top: 5px;
   margin-bottom: 5px;
   flex-grow: 0;
+
+}
+.header-image{
+  display: none;
 }
 
 .supporting-text {
@@ -128,20 +135,6 @@ header {
   flex-grow: 0;
 }
 
-.description {
-  width: 327px;
-  height: 123px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  color: #fff;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: 0;
-}
 
 .icons {
   display: flex;
@@ -193,14 +186,16 @@ ul {
 }
 
 .tag-link {
-  margin-left: -40px;
+  margin-left: -18px;
   display: flex;
   align-content: space-between;
+  column-gap: 5%;
 }
 
 .tag-link-1 {
   margin-left: -40px;
   display: flex;
+  column-gap: 3%;
 }
 
 .tag:hover {
@@ -253,6 +248,7 @@ a {
 }
 
 .Title-post {
+  font-size: x-large;
   width: 295px;
   height: 87px;
   padding-left: 20px;
@@ -487,18 +483,23 @@ h3 {
   height: 10px;
 }
 
-.descripton {
+
+.description {
   width: 327px;
-  height: 148px;
+  height: 123px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 24px;
-  color: #000;
+  color: #fff;
   flex: none;
+  order: 2;
   flex-grow: 0;
+  margin: 0;
+  margin-top: 3%;
 }
+
 
 .rule-2 {
   position: absolute;
@@ -605,4 +606,10 @@ form {
 .section-4 {
   display: flex;
   margin-left: 70px;
+}
+.desk{
+  display: none;
+}
+.mob {
+  display: inline-flex;
 }

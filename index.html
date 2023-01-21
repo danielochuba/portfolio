@@ -4,20 +4,36 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>
+            Daniel Ochuba - Portfolio
+        </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" media="screen and (min-width:800px)" href="./desktop.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete Round" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=InaiMathi" />
+        <link rel="stylesheet" href="main.css">
+       
+        
 
     </head>
     <body>  
         <header class="nav">
             <a class="logo-name" href="">DANIEL OCHUBA</a>
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href=""><img src="./img/desktop/mail.png" alt=""></a></li>
+                    </ul>
+                    
+                </div>
                 <div class="toggle-1"> 
                     <div class="toggle"></div>
                     <div class="toggle"></div>
@@ -26,9 +42,16 @@
         </header>
         <main class="body">
             <section class="section-2"> 
-                    <h1 class="primary-text">Hey There. I’m Daniel</h1>
-                    <h5 class="supporting-text">I’am a Software Developer</h5>
-                    <p class="description">I can help you build a product ,feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    <div class="top-description">
+                        <h1 class="primary-text">Hey There. I’m Daniel</h1><br>
+                        <h5 class="supporting-text">I’am a Software Developer</h5>
+                        <p class="description">I can help you build a product ,feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    </div>
+                            
+                        <!-- For desktop view only -->
+                    <img class="header-image" src="./img/desktop/header.png" alt=""> 
+                         <!-- For desktop view only -->
+
                     <div class="images">
                         <ul class="icons">  
                             <li class="icon"><a href=""><img src="./img/Disabled(2).png" alt=""></a></li>
@@ -44,15 +67,20 @@
 
                 <section>
                     <div class="works-section">
-                        <h1 class="title">My Recent Works</h1>
+                        <h1 class="title">My Recent Works </h1>
                         <hr class="rule">
+                        
                     </div> 
                     <div class="cards">
                         <div class="card-1">
                             <img src="./img/img_placeholder.png" class="img-3" alt="">
-                            <h2 class="Title-post-1">Multi-Post Stories</h2>
-                            <p class="Supporting-text-1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                            
+                            
                             <div class="tags">
+                                    <div class="flap-1">
+                                        <h2 class="Title-post-1">Multi-Post Stories</h2>
+                                        <p class="Supporting-text-1">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                                    </div>
                                     <div >
                                         <ul class="tag-link-1">
                                             <li class="tag "><a href="https://www.w3.org/Style/CSS/Overview.en.html">css</a></li>
@@ -64,103 +92,129 @@
                                     <button class="see-project-1" href="">See project</button>
                             </div>
                         </div>
-                        <div class="card-2 card">
-                            
-                            <h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div>
-                                    <ul class="tag-link">
-                                        <li class="tag "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                        <div class="card-sec">
+                                <div class="card-2 card card-sec-1">
+                                    
+                                    
+                                        <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+                                        <h2 class="Title-post desk">Data Dashboard Healthcare</h2>
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags deskoff">
+                                        <div>
+                                            <ul class="tag-link ">
+                                                <li class="tag "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                        <span class="see-project see-project-vis "><a href="">See project</a></span>
+                                    </div>
                                 </div>
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                        </div>
-                        <div class="card-3 card">
-                            <h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div >
-                                    <ul class="tag-link">
-                                        <li class="tag "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                                <div class="card-3 card card-sec-2 card-fill">
+                                    
+                                        <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+                                        <h2 class="Title-post desk">Website Protfolio </h2>
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags">
+                                        <div >
+                                            <ul class="tag-link">
+                                                <li class="tag "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                        <span class="see-project"><a href="">See project</a></span>
+                                    </div>
                                 </div>
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                        </div>
-                        <div class="card-4 card"><h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div>
-                                    <ul class="tag-link">
-                                        <li class="tag "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                                <div class="card-4 card card-sec-3 card-fill">
+                                    
+                                        <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+                                        <h2 class="Title-post desk">Data Dashboard Healthcare</h2>
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags">
+                                        <div>
+                                            <ul class="tag-link">
+                                                <li class="tag "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                    
+                                        <span class="see-project"><a href="">See project</a></span>
+                                    </div>
                                 </div>
-                            
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                        </div>
-                        <div class="card-5 card"><h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div >
-                                    <ul class="tag-link">
-                                        <li class="tag  "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                                <div class="card-5 card card-sec-4 card-fill">
+                                    
+                                        <p class="Title-post">Profesional Art Printing Data</p>
+
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags">
+                                        <div >
+                                            <ul class="tag-link">
+                                                <li class="tag  "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                        <span class="see-project"><a href="">See project</a></span>
+                                    </div>
                                 </div>
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                        </div>
-                        <div class="card-6 card"><h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div>
-                                    <ul class="tag-link">
-                                        <li class="tag "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag  "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag"><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                                <div class="card-6 card card-sec-5 card-fill">
+                                    
+                                        <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+                                        <h2 class="Title-post desk">Data Dashboard Healthcare</h2>
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags">
+                                        <div>
+                                            <ul class="tag-link">
+                                                <li class="tag "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag  "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag"><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                        <span class="see-project"><a href="">See project</a></span>
+                                    </div>
                                 </div>
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                        </div>
-                        <div class="card-7 card"><h2 class="Title-post">Profesional Art Printing Data</h2>
-                            <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                            <div class="tags">
-                                <div>
-                                    <ul  class="tag-link">
-                                        <li class="tag "><a href="https://www.html.org">html</a></li>
-                                        <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
-                                        <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-                                    </ul>
+                                <div class="card-7 card card-sec-6 card-fill">
+                                    
+                                        <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+                                        <h2 class="Title-post desk">Website Protfolio </h2>
+                                        <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                                    
+                                    <div class="tags">
+                                        <div>
+                                            <ul  class="tag-link">
+                                                <li class="tag "><a href="https://www.html.org">html</a></li>
+                                                <li class="tag "><a href="https://getbootstrap.com/">bootstrap</a></li>
+                                                <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+                                            </ul>
+                                        </div>
+                                        <span class="see-project"><a href="">See project</a></span>
+                                    </div>
+                                    
                                 </div>
-                                <span class="see-project"><a href="">See project</a></span>
-                            </div>
-                            
-                        </div>
-                    </div> 
+                            </div> 
                 </section>
                 <section>
                     <div class="About">
-                        <h2 class="about-me">About me</h2>
-                        <span><p class="description">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></span>
-                        <span class="get-resume"><a href="">Get My Resume</a></span>
-                        <div class="image-2">
-
+                        <div class="about-text">
+                            <h2 class="about-me">About me</h2>
+                            <p class="description description-abt">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                            <span class="get-resume"><a href="">Get My Resume</a></span>
+                        </div>
+                            
+                            <div class="image-2">
+                        
                         </div>
                             <hr class="rule-2">
                             <div class="offer">
                                 <div class="heading">
-                                    <h3 class="head">🔸Language</h3>
+                                    <h3 class="head"><img src="./img/desktop/kite.png" class="kite" alt=""> Language</h3>
                                     <ul class="list">
                                         <li><a href="">Javascript</a></li>
                                         <li><a href="">Ruby</a></li>
@@ -169,7 +223,7 @@
                                     </ul>
                                 </div>
                                 <div class="heading ">
-                                    <h3 class="head">🔸Frameworks</h3>
+                                    <h3 class="head"><img src="./img/desktop/square.png" class="square" alt=""> Frameworks</h3>
                                     <ul class="list">
                                         <li><a href="">Bootstrap</a></li>
                                         <li><a href="">Ruby oR</a></li>
@@ -179,8 +233,9 @@
                                     </ul>
                                 </div>
                                 <div class="heading">
-                                    <h3 class="head">🔸Skill</h3>
+                                    <h3 class="head"><img src="./img/desktop/circle.png" class="circle" alt=""> Skill</h3>
                                     <ul class="list">
+                                        
                                         <li><a href="">Codekit</a></li>
                                         <li><a href="">Github</a></li>
                                         <li><a href="">Codepen</a></li>
@@ -203,7 +258,8 @@
                                 <input type="email" name="email-input" id="email-input" placeholder="    Email address" required>
                             </label><br>
                             <label for="more-text">
-                                <textarea name="" id="more-text" cols="30" rows="6" maxlength="500" placeholder="Enter text here" required></textarea>
+                                <textarea name="" id="more-text" cols="30" rows="6" maxlength="500" placeholder="Enter text here" class="mob" required></textarea>
+                                <textarea name="" id="more-text" cols="77" rows="6" maxlength="500" placeholder="Enter text here" class="desk" required></textarea>
                             </label>
                             <button type="submit" class="submit">Get in touch</button>
                       </form>

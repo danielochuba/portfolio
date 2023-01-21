@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .body {
@@ -91,6 +91,23 @@ header {
   color: #fff;
   padding-left: 10%;
   justify-content: center;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo-name:active {
+  transform: rotate(360deg);
 }
 
 .images {
@@ -137,7 +154,7 @@ header {
   width: 48%;
   top: -7%;
   right: 0;
-  height: 100%;
+  height: 95%;
 }
 
 .description {
@@ -165,6 +182,10 @@ header {
   order: -1;
   display: flex;
   flex-direction: row;
+}
+
+.see-project-1:hover {
+  background: #ff6b00;
 }
 
 .works-section {
@@ -223,6 +244,10 @@ header {
   border-radius: 0;
 }
 
+.card:hover {
+  transform: scale(1.1);
+}
+
 .card-sec-1 {
   grid-area: box-1;
   background-image: url("./img/desktop/proprint.png");
@@ -269,6 +294,7 @@ header {
   display: grid;
   width: 74%;
   column-gap: 1%;
+  row-gap: 2%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -382,7 +408,7 @@ header {
 .offer {
   display: flex;
   flex-direction: row;
-  column-gap: 50%;
+  column-gap: 42%;
   position: relative;
   top: 180px;
   justify-content: center;
@@ -517,7 +543,7 @@ h3 {
 
 .rule-2 {
   position: absolute;
-  width: 70%;
+  width: 75%;
   top: 538px;
 }
 
@@ -552,7 +578,16 @@ h3 {
   color: rgb(14, 12, 12);
   padding: 7px 0;
   background: transparent;
+  margin-left: -2%;
   transition: border-color 0.2s;
+}
+
+#name-input:hover {
+  transform: scale(1.1);
+}
+
+#email-input:hover {
+  transform: scale(1.1);
 }
 
 form {
@@ -581,7 +616,7 @@ form {
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   border: 1px solid white;
-  margin-left: -84%;
+  margin-left: -83%;
 }
 
 .submit:hover {
@@ -633,6 +668,11 @@ form {
 .card-fill .text-sec {
   padding-top: 81px;
   height: 0;
+}
+
+.card-body {
+  position: relative;
+  margin-left: -6%;
 }
 
 .mob {

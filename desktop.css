@@ -191,6 +191,8 @@ header {
 
 .flap-1 {
   width: 100%;
+  position: relative;
+  top: -40px;
 }
 
 .card-1 {
@@ -293,6 +295,7 @@ header {
 
 .tag-link-1 {
   column-gap: 3%;
+  margin-top: -34px;
 }
 
 .tags {
@@ -322,7 +325,7 @@ header {
 }
 
 .see-project-vis {
-  top: 177px;
+  top: 408px;
   color: #fff;
   position: relative;
   height: 55px;
@@ -358,7 +361,6 @@ header {
   position: relative;
   margin-top: 5%;
   margin-bottom: 1%;
-  margin-left: -950px;
   width: 327px;
   height: 79px;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
@@ -370,13 +372,25 @@ header {
   color: #ff6b00;
 }
 
+.about-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -20%;
+}
+
 .offer {
   display: flex;
   flex-direction: row;
-  column-gap: 40%;
+  column-gap: 50%;
   position: relative;
-  top: 150px;
+  top: 180px;
   justify-content: center;
+}
+
+.square,
+.circle {
+  margin-right: 4%;
 }
 
 p {
@@ -414,23 +428,27 @@ p {
 }
 
 .head {
+  display: flex;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 20px;
+  margin-left: 0%;
 }
 
 .list {
   row-gap: 20px;
-  display: grid;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   margin-top: -65px;
   text-align: justify;
   width: fit-content;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .get-resume {
@@ -445,8 +463,9 @@ p {
   color: #fff;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   align-self: flex-start;
-  margin-left: 265px;
+  margin-left: 0;
   margin-top: 35px;
+  order: 5;
 }
 
 .image-2 {
@@ -493,10 +512,6 @@ h3 {
   color: #000;
   flex: none;
   flex-grow: 0;
-}
-
-.description-abt {
-  margin-left: -78%;
 }
 
 .rule-2 {
@@ -553,7 +568,6 @@ form {
   background: hsl(0, 11%, 95%);
   font-style: normal;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  margin-left: -73%;
 }
 
 .submit {

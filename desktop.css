@@ -389,7 +389,8 @@ header {
 }
 
 .square,
-.circle {
+.circle,
+.kite {
   margin-right: 4%;
 }
 

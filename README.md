@@ -6,7 +6,7 @@
   
   
 
-  <h3><b>Portfolio: finish mobile version README</b></h3>
+  <h3><b>Portfolio: Daniel Ochuba README</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 
 
 
-# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: Daniel Ochuba] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio: finish mobile version]** is the first project of the Microverse Program, Which is the portfolio project, The enhanced mobile version.
+**[Portfolio: Daniel Ochuba]** is the first project of the Microverse Program, Which is the portfolio project, The enhanced mobile and Desktop version.
 
 ## 🛠 Built With <a name="built-with"> HTML, CSS</a>
 
@@ -55,7 +55,8 @@
 > Describe between 1-3 key features of the application.
 
 - **[Linters Enabled]**
-   **[Mobile version only]**
+   **[Mobile version]**
+   **[Desktop version]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</>
@@ -64,7 +65,7 @@
 
 
 
-- [Live Demo Link](https://github.com/danielochuba/Portfolio-setup-and-mobile-first)
+- [Live Demo Link]( https://danielochuba.github.io/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

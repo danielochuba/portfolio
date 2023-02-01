@@ -34,6 +34,71 @@ body {
   display: none;
 }
 
+#menu {
+  background: #3c3a39;
+  border: none;
+}
+
+#popup {
+  height: 90vh;
+  width: 90vw;
+  background: #fff;
+}
+
+#modal {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  height: 100vh;
+  background: #3c3a39;
+}
+
+.modal-nav {
+  margin-top: 120px;
+}
+
+.modal-nav-link {
+  color: #fff5e1;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.modal-rule {
+  width: 90%;
+  margin-left: -10px;
+}
+
+.none-scroll {
+  overflow: hidden;
+}
+
+.exit-btn {
+  background: #3c3a39;
+  border: none;
+  display: flex;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.display-none {
+  display: none;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.hide {
+  display: none;
+}
+
 .section-2 {
   max-height: 55%;
   display: flex;
@@ -269,7 +334,6 @@ a {
   height: 40px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400px;
   line-height: 24px;
   flex: none;
   flex-grow: 0;
@@ -374,7 +438,6 @@ p {
   justify-content: center;
   align-items: center;
   padding-bottom: 400px;
-  height: fit-content;
   padding-top: 50px;
   width: 410px;
   left: 0;
@@ -439,7 +502,6 @@ p {
   position: relative;
   width: 180px;
   padding: 7px;
-  height: fit-content;
   background: #ff6b00;
   display: flex;
   justify-content: center;
@@ -475,7 +537,7 @@ p {
 h3 {
   text-align: center;
   font-size: 32px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -511,7 +573,6 @@ h3 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 29px;
   height: 180px;
-  width: 327;
   line-height: 30px;
   color: #172b4d;
 }
@@ -557,7 +618,6 @@ form {
 
 .submit {
   padding: 7px;
-  height: fit-content;
   background: #fc8e40;
   display: flex;
   justify-content: center;
@@ -569,7 +629,6 @@ form {
 
 .submit:hover {
   padding: 7px;
-  height: fit-content;
   background: #ff6b00;
   display: flex;
   justify-content: center;
@@ -581,7 +640,6 @@ form {
 
 .submit:disabled {
   padding: 7px;
-  height: fit-content;
   background: #f59551;
   display: flex;
   justify-content: center;

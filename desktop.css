@@ -433,7 +433,6 @@ p {
   justify-content: center;
   align-items: center;
   padding-bottom: 400px;
-  height: fit-content;
   padding-top: 50px;
   width: 100vw;
   left: 0;
@@ -482,7 +481,6 @@ p {
   position: relative;
   width: 180px;
   padding: 7px;
-  height: fit-content;
   background: #ff6b00;
   display: flex;
   justify-content: center;
@@ -524,7 +522,7 @@ p {
 h3 {
   text-align: center;
   font-size: 32px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -611,7 +609,6 @@ form {
 
 .submit {
   padding: 11px;
-  height: fit-content;
   background: #fc8e40;
   display: flex;
   justify-content: center;
@@ -624,7 +621,6 @@ form {
 
 .submit:hover {
   padding: 11px;
-  height: fit-content;
   background: #ff6b00;
   display: flex;
   justify-content: center;
@@ -636,7 +632,6 @@ form {
 
 .submit:disabled {
   padding: 7px;
-  height: fit-content;
   background: #f59551;
   display: flex;
   justify-content: center;

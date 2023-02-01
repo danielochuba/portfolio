@@ -8,9 +8,8 @@
             Daniel Ochuba - Portfolio
         </title>
         <meta name="description" content="">
-        <head>
-            <link rel="icon" type="image/png" href="./img/duotitle.png"/>
-          </head>
+        <link rel="icon" type="image/png" href="./img/duotitle.png"/>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="./style.css">
@@ -21,7 +20,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete Round" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=InaiMathi" />
-        <link rel="stylesheet" href="main.css">
+        
+        
        
         
 
@@ -31,17 +31,38 @@
             <a class="logo-name" href="">DANIEL OCHUBA</a>
                 <div class="menu-items">
                     <ul>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href=""><img src="./img/desktop/mail.png" alt="Email"></a></li>
                     </ul>
                 </div>
                 <div class="toggle-1"> 
-                    <div class="toggle"></div>
-                    <div class="toggle"></div>
-                    <div class="toggle"></div>
+                    <button id="menu" class="">
+                        <div class="toggle"></div>
+                        <div class="toggle"></div>
+                        <div class="toggle"></div>
+                    </button>
                 </div>
+
+                <div id="modal" class="modalClass display-none">
+                    <div>
+                        <button id="exit-btn" class="exit-btn">
+                             <img src="./img/close-btn.png" alt="" height="20px">
+                        </button>
+                    </div>
+                   
+                    <div class="modal-nav">
+                            <ul>
+                                <li><a class="modal-nav-link" href="#portfolio">Portfolio</a></li> <hr class="modal-rule"><br>
+                                <li><a class="modal-nav-link" href="#about">About</a></li><hr class="modal-rule"><br>
+                                <li><a class="modal-nav-link" href="#contact">Contact</a></li><hr class="modal-rule">
+                                
+                            </ul>
+                    </div>
+                    
+                </div>
+                
         </header>
         <main class="body">
             <section class="section-2"> 
@@ -68,7 +89,7 @@
                         
         </main>
 
-                <section class="card-body">
+                <section class="card-body " id="portfolio">
                     <div class="works-section">
                         <h1 class="title">My Recent Works </h1>
                         <hr class="rule">
@@ -203,7 +224,7 @@
                                                     </div> 
                 </section>
                 <section>
-                    <div class="About">
+                    <div class="About" id="about">
                         <div class="about-text">
                             <h2 class="about-me">About me</h2>
                             <p class="description description-abt">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -249,8 +270,8 @@
                         
                     </div>
                 </section>
-           <section class="section_3">
-            <h2 class="description-2">I'm always interested in hearing about new projects,
+           <section class="section_3" id="contact">
+           <h2 class="description-2">I'm always interested in hearing about new projects,
                        so if you'd like to chat please get in touch.</h2>
                        <form action="https://formspree.io/f/xpzewlbk" method="POST">
                             <label for="name-input">
@@ -265,7 +286,7 @@
                             </label>
                             <button type="submit" class="submit">Get in touch</button>
                       </form>
-           </section>     
+           </section>
            <section class="section-4">
                     
                 <div class="images-1">
@@ -278,5 +299,7 @@
                     </ul>
                 </div> 
           </section>
+          
+        <script src="./index.js"></script>
     </body>
 </html>

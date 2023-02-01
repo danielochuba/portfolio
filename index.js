@@ -11,3 +11,15 @@ enableModal.addEventListener('click',() => {
     body.classList.add('none-scroll');
        
 });
+
+extBtn.addEventListener('click',() => {
+  modal.classList.add('display-none');
+  body.classList.remove('none-scroll');
+    
+});
+
+modalLinks.addEventListener('click',() => {
+  modal.classList.add('display-none');
+  body.classList.remove('none-scroll');
+  modal.classList.add('scroll');
+});

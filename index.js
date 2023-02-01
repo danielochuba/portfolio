@@ -14,10 +14,9 @@ extBtn.addEventListener('click', () => {
   body.classList.remove('none-scroll');
 });
 
-for (let i = 0; i < modalLinks.length; i += 1) {
-  modalLinks[i].addEventListener('click', () => {
-    modal.classList.add('display-none');
-    body.classList.remove('none-scroll');
-    body.classList.add('scroll');
-  });
-}
+modalLinks.addEventListener('click', (event) => {
+  modal.classList.add('display-none');
+  body.classList.remove('none-scroll');
+  body.classList.add('scroll');
+  event.stopPropagation();
+});

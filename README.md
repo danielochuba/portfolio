@@ -43,6 +43,7 @@
   <ul>
     <li><a href="https://html.com">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
   
 </details>
@@ -124,7 +125,10 @@ To run the project, execute the following command:
 - Twitter: [@twitterhandle](https://twitter.com/ochuba_daniel)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/daniel-ochuba-614572238)
 
-
+👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/getssh)
+- Twitter: [@twitterhandle](https://twitter.com/getssh)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/getssh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

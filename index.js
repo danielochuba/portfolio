@@ -2,7 +2,7 @@ const enableModal = document.querySelector('#menu');
 const body = document.querySelector('body');
 const extBtn = document.getElementById('exit-btn');
 const modal = document.querySelector('#modal');
-const modalLinks = document.querySelector('.modal-nav-link');
+const element = document.getElementById('modal-nav');
 
 enableModal.addEventListener('click', () => {
   modal.classList.remove('display-none');
@@ -14,9 +14,9 @@ extBtn.addEventListener('click', () => {
   body.classList.remove('none-scroll');
 });
 
-modalLinks.addEventListener('click', (event) => {
-  modal.classList.add('display-none');
-  body.classList.remove('none-scroll');
-  body.classList.add('scroll');
-  event.stopPropagation();
+element.addEventListener('click', (e) => {
+  if (e.target.classList.contains('modal-nav-link')) {
+    modal.classList.add('display-none');
+    body.classList.remove('none-scroll');
+  }
 });

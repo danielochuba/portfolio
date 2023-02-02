@@ -95,10 +95,6 @@ body {
   overflow: scroll;
 }
 
-.hide {
-  display: none;
-}
-
 .section-2 {
   max-height: 55%;
   display: flex;

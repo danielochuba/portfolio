@@ -9,14 +9,3 @@ enableModal.addEventListener('click', () => {
   body.classList.add('none-scroll');
 });
 
-extBtn.addEventListener('click', () => {
-  modal.classList.add('display-none');
-  body.classList.remove('none-scroll');
-});
-
-element.addEventListener('click', (e) => {
-  if (e.target.classList.contains('modal-nav-link')) {
-    modal.classList.add('display-none');
-    body.classList.remove('none-scroll');
-  }
-});

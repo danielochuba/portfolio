@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete Round" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=InaiMathi" />
+       
         
         
        
@@ -270,21 +270,30 @@
                         
                     </div>
                 </section>
-           <section class="section_3" id="contact">
+           <section class="section_3" id="contact" >
            <h2 class="description-2">I'm always interested in hearing about new projects,
                        so if you'd like to chat please get in touch.</h2>
-                       <form action="https://formspree.io/f/xpzewlbk" method="POST">
-                            <label for="name-input">
-                                <input type="text" name="name-input" id="name-input" maxlength = "30" placeholder="    Full name" required>
-                            </label><br>
-                            <label for="email-input">
-                                <input type="email" name="email-input" id="email-input" placeholder="    Email address" required>
-                            </label><br>
-                            <label for="more-text">
-                                <textarea name="" id="more-text" cols="30" rows="6" maxlength="500" placeholder="Enter text here" class="mob" required></textarea>
-                                <textarea name="" id="more-text" cols="80" rows="6" maxlength="500" placeholder="Enter text here" class="desk" required></textarea>
-                            </label>
+                       <form action="https://formspree.io/f/xpzewlbk" method="POST" id="contact-form">
+                       <div class="field">    
+                            <label for="name-input"></label>
+                            <input type="text" value="" name="name-input" id="name-input" maxlength = "30" placeholder="    Full name" > <br>
+                            <small class="small-name"></small> 
+                            
+                        </div><br>
+                        <div class="field">
+                            <label for="email-input"></label>
+                            <input type="email" name="email-input" id="email-input" placeholder="    Email address" value="" ><br>
+                            <small class="small-email"></small>
+                        </div><br>
+                        <div class="field">
+                            <label for="more-text"></label>
+                            <textarea name="" id="more-text" cols="30" rows="6" minlength="10" maxlength="500" placeholder="Enter text here" class="mob"  ></textarea>
+                            <textarea name="" id="more-text" cols="80" rows="6" minlength="10" maxlength="500" placeholder="Enter text here" class="desk" ></textarea>
+                            <small class="small-email"></small>
+                        </div><br>
+                        <div class="field">
                             <button type="submit" class="submit">Get in touch</button>
+                        </div><br>
                       </form>
            </section>
            <section class="section-4">

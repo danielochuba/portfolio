@@ -667,3 +667,18 @@ form {
 .mob {
   display: inline-flex;
 }
+
+.error .field.error input {
+  border-color: var(--error-color);
+}
+
+.error, .field.success input {
+  border-color: var(--success-color);
+}
+
+small {
+  color: red;
+  font-size: 13px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+

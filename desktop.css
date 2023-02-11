@@ -680,3 +680,16 @@ form {
 .desk {
   display: inline;
 }
+
+.field input:focus {
+  outline: none;
+}
+
+.error,
+.field.success input {
+  border-color: green;
+}
+
+.error .field.error input {
+  border-color: red;
+}

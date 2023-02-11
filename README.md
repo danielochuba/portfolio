@@ -58,6 +58,7 @@
 - **[Linters Enabled]**
    **[Mobile version]**
    **[Desktop version]**
+   **[Mobile menu]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</>

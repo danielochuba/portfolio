@@ -21,7 +21,6 @@ element.addEventListener('click', (e) => {
   }
 });
 
-
 // ERROR MESSAGES //
 const hasUpperCase = (str) => /[A-Z]/.test(str);
 const NAME_REQUIRED = 'Please enter your name';
@@ -127,4 +126,3 @@ window.addEventListener('load', () => {
   areaInput.value = data?.textArea || '';
   areaInput.value = localObject.textArea;
 });
-

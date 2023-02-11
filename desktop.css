@@ -24,6 +24,14 @@ body {
   z-index: 2;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+}
+
 header {
   background: #3c3a39;
   height: 20px;
@@ -186,13 +194,6 @@ header {
 
 .see-project-1:hover {
   background: #ff6b00;
-}
-
-.works-section {
-  display: inline-flex;
-  align-items: center;
-  padding-left: 7.511%;
-  width: 90%;
 }
 
 .rule {
@@ -692,4 +693,98 @@ form {
 
 .error .field.error input {
   border-color: red;
+}
+
+#popup {
+  padding-top: 7px;
+  padding-left: 2%;
+  background: #fffdfc;
+  display: block;
+  max-width: 100vw;
+  top: 50%;
+  left: 50%;
+}
+
+.popTitle {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#project-live-source {
+  margin-left: -40px;
+  column-gap: 10px;
+}
+
+#project-live-source li button {
+  height: 35px;
+  width: 110px;
+  background: #ff6b00;
+  color: aliceblue;
+  border: none;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.popgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+}
+
+.popup-close {
+  position: absolute;
+  right: 90px;
+  top: 50px;
+  border: none;
+  background: #fff;
+}
+
+#technologies {
+  margin-left: -40px;
+  column-gap: 10px;
+}
+
+#technologies li button {
+  padding: 5px;
+  border: 1px solid rgb(222, 220, 220);
+  background: white;
+}
+
+.popup-image {
+  width: 659px;
+  height: 448px;
+}
+
+.popup-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.works-section {
+  margin-top: 0;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 7.511%;
+  width: 90%;
+}
+
+.popup-description {
+  text-align: justify;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  width: 90%;
+}
+
+.pop-icon {
+  margin-left: 3px;
+}
+
+.show {
+  display: block;
 }

@@ -113,8 +113,9 @@
                                             <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                         </ul>
                                     </div>
-                                    <button class="see-project-1" href="">See project</button>
+                                    <button class="see-project-1 project-btn" id="project1" >See project</button>
                             </div>
+                           
                         </div>
 
                                                     <div class="card-sec">
@@ -131,7 +132,7 @@
                                                                         <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                                                     </ul>
                                                                 </div>
-                                                                <span class="see-project see-project-vis "><a href="">See project</a></span>
+                                                                <span class="see-project see-project-vis project-btn" id="project2"><a >See project</a></span>
                                                             </div>
                                                         </div>              
                                                         <div class="card-body"></div>
@@ -148,7 +149,7 @@
                                                                         <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                                                     </ul>
                                                                 </div>
-                                                                <span class="see-project"><a href="">See project</a></span>
+                                                                <span class="see-project project-btn" id="project3"<a >See project</a></span>
                                                             </div>
                                                         </div>
                                                         <div class="card-4 card card-sec-3 card-fill">
@@ -166,7 +167,7 @@
                                                                     </ul>
                                                                 </div>
                                                             
-                                                                <span class="see-project"><a href="">See project</a></span>
+                                                                <span class="see-project project-btn" id="project4" <a >See project</a></span>
                                                             </div>
                                                         </div>
                                                         <div class="card-5 card card-sec-4 card-fill">
@@ -183,7 +184,7 @@
                                                                         <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                                                     </ul>
                                                                 </div>
-                                                                <span class="see-project"><a href="">See project</a></span>
+                                                                <span class="see-project project-btn" id="project5"<a>See project</a></span>
                                                             </div>
                                                         </div>
                                                         <div class="card-6 card card-sec-5 card-fill">
@@ -200,7 +201,7 @@
                                                                         <li class="tag"><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                                                     </ul>
                                                                 </div>
-                                                                <span class="see-project"><a href="">See project</a></span>
+                                                                <span class="see-project project-btn" id="project6"<a>See project</a></span>
                                                             </div>
                                                         </div>
                                                         <div class="card-7 card card-sec-6 card-fill">
@@ -217,12 +218,15 @@
                                                                         <li class="tag "><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
                                                                     </ul>
                                                                 </div>
-                                                                <span class="see-project"><a href="">See project</a></span>
+                                                                <span class="see-project project-btn" id="project7"<a>See project</a></span>
                                                             </div>
                                                             
                                                         </div>
                                                     </div> 
                 </section>
+
+                
+                
                 <section>
                     <div class="About" id="about">
                         <div class="about-text">
@@ -270,6 +274,32 @@
                         
                     </div>
                 </section>
+                <div id="inPop">
+                    <div class="popup display-none" id="popup">
+                        <div id="popup-content">            
+                                <h2 class="popTitle" id="title"></h2>
+                                <button class="popup-close" id="closeButton" ><img  src="./img/desktop/popupclose.png" alt="close button"></button>
+                                <ul id="technologies">
+                                    <li><button>html</button></li>
+                                    <li><button>bootstrap</button></li>
+                                    <li><button>Ruby on rails</button></li>
+                                </ul><br>
+                            <div class="popgrid">
+                                <div class="popup-left">
+                                    <img class="popup-image" src="./img/desktop/popimage.png" alt="">
+                                </div>
+                                <div class="popup-right"> 
+                                    <p class="popup-description" id="project-description"></p>
+                                    <ul id="project-live-source">
+                                        <li ><button id="see-live-btn"><a href=""> See Live <img class="pop-icon" src="./img/desktop/sourcepop.png" alt="Live icon"></a></button></li>
+                                        <li><button id="see-source-btn"><a href=""> See Source <img class="pop-icon" src="./img/desktop/githubpop.png" alt="Git icon"></a></button></li>
+                                    </ul>
+                                </div>  
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
            <section class="section_3" id="contact" >
            <h2 class="description-2">I'm always interested in hearing about new projects,
                        so if you'd like to chat please get in touch.</h2>
@@ -310,5 +340,6 @@
           </section>
           
         <script src="./index.js"></script>
+        <script src="./popupwindow.js"></script>
     </body>
 </html>

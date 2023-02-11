@@ -738,6 +738,7 @@ form {
   top: 50px;
   border: none;
   background: #fff;
+  z-index: 2000;
 }
 
 #technologies {

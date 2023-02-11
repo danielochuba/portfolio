@@ -66,6 +66,22 @@ function validateEmail(emailInput, requiredMsg, invalidMsg) {
 }
 
 // FUNCTION TO HANDLE FEEDBACK VALIDATION //
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (hasUpperCase(form.elements['email-input'].value.trim())) {
+    showError(form.elements['email-input'], EMAIL_INVALID_UPPERCASE);
+  } else {
+    const nameValid = hasValue(form.elements['name-input'], NAME_REQUIRED);
+    const emailValid = validateEmail(form.elements['email-input'], EMAIL_REQUIRED, EMAIL_INVALID);
+
+    if (nameValid && emailValid) {
+      form.submit();
+      window.localStorage.setItem('data', JSON.stringify({ name: '', email: '', textArea: '' }));
+    }
+  }
+});
 
 // PRESERVE DATA IN BROWSER //
 

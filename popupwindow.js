@@ -91,7 +91,6 @@ const popup = document.getElementById('popup');
 const projectName = document.getElementById('title');
 const projectDescription = document.getElementById('project-description');
 const popupImage = document.querySelector('.popup-image');
-const techStack = document.getElementById('technologies');
 
 projectBtns.forEach((btn) => {
   btn.addEventListener('click', (event) => {

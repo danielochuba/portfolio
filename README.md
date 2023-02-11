@@ -61,7 +61,6 @@
    **[Mobile menu]**
    **[Validate Form inputs]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</>
 
 ## 🚀 Live Demo <a name="live-demo"></a>

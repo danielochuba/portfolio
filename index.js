@@ -21,7 +21,6 @@ element.addEventListener('click', (e) => {
   }
 });
 
-
 // ERROR MESSAGES //
 const hasUpperCase = (str) => /[A-Z]/.test(str);
 const NAME_REQUIRED = 'Please enter your name';
@@ -66,6 +65,7 @@ function validateEmail(emailInput, requiredMsg, invalidMsg) {
 }
 
 // FUNCTION TO HANDLE FEEDBACK VALIDATION //
+
 const form = document.getElementById('contact-form');
 
 form.addEventListener('submit', (event) => {
@@ -127,4 +127,3 @@ window.addEventListener('load', () => {
   areaInput.value = data?.textArea || '';
   areaInput.value = localObject.textArea;
 });
-

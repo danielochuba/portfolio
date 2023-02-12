@@ -698,11 +698,18 @@ form {
 #popup {
   padding-top: 7px;
   padding-left: 2%;
-  background: #fffdfc;
   display: block;
   max-width: 100vw;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+  
+width: 1156px;
+border-radius: 0px;
+
 }
 
 .popTitle {
@@ -761,7 +768,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
 }
 
 .works-section {
@@ -773,12 +780,12 @@ form {
 }
 
 .popup-description {
-  text-align: justify;
+  text-align: left;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
+  font-size: 25px;
+  line-height: 25px;
   width: 90%;
 }
 
@@ -788,4 +795,14 @@ form {
 
 .show {
   display: block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  
 }

@@ -713,8 +713,9 @@ form {
 }
 
 #project-live-source {
-  margin-left: -40px;
-  column-gap: 10px;
+  
+  column-gap: 8px;
+  justify-content: initial;
 }
 
 #project-live-source li button {

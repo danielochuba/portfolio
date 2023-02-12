@@ -232,7 +232,7 @@ projectBtns.forEach((btn) => {
     const project = projectDetails[projectId - 1];
     if (projectId === 1) {
       document.getElementById('technologies').innerHTML += `
-    <li><button>html</button></li>
+    <li><button>css</button></li>
     <li><button>html</button></li>
     <li><button>bootstrap</button></li>
     <li><button>Ruby on rails</button></li>

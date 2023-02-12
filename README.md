@@ -6,7 +6,7 @@
   
   
 
-  <h3><b>Portfolio: Daniel Ochuba README</b></h3>
+  <h3><b>details-popup-window</b></h3>
 
 </div>
 
@@ -127,9 +127,9 @@ To run the project, execute the following command:
 - LinkedIn: [LinkedIn](www.linkedin.com/in/daniel-ochuba-614572238)
 
 👤 **Author2**
-- GitHub: [@githubhandle](https://github.com/getssh)
-- Twitter: [@twitterhandle](https://twitter.com/getssh)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/getssh)
+- GitHub: [@GardimyCharles](https://github.com/Gardimy/Application-deploy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gardimy-charles/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

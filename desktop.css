@@ -704,12 +704,9 @@ form {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 20px;
-  box-shadow: 0px 0px 10px #ccc;
-  
-width: 1156px;
-border-radius: 0px;
-
+  box-shadow: 0 0 10px #ccc;
+  width: 1156px;
+  border-radius: 0;
 }
 
 .popTitle {
@@ -804,5 +801,4 @@ border-radius: 0px;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.9);
-  
 }

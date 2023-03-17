@@ -153,35 +153,35 @@
                         
                     </div>
                 </section>
-                <div id="inPop">
-                    <div class="overlay"></div>
-                    <div class="popup display-none" id="popup">
-                        
-                        
-                        <div id="popup-content">   
-                                
-                                 
-                                <h2 class="popTitle" id="title"></h2>
-                                <button class="popup-close" id="closeButton" ><img  src="./img/desktop/popupclose.png" alt="close button"></button>
-                                <ul id="technologies">
-                                    <li><button>html</button></li>
-                                    <li><button>bootstrap</button></li>
-                                    <li><button>Ruby on rails</button></li>
-                                </ul><br>
-                            <div class="popgrid">
-                                <div class="popup-left">
-                                    <img class="popup-image" src="./img/desktop/popimage.png" alt="">
-                                </div>
-                                <div class="popup-right"> 
-                                    <p class="popup-description" id="project-description"></p>
-                                    <ul id="project-live-source">
-                                        <li ><button id="see-live-btn"><a href=""> See Live <img class="pop-icon" src="./img/desktop/sourcepop.png" alt="Live icon"></a></button></li>
-                                        <li><button id="see-source-btn"><a href=""> See Source <img class="pop-icon" src="./img/desktop/githubpop.png" alt="Git icon"></a></button></li>
-                                    </ul>
-                                </div>  
-                            </div> 
+                <div id="inPop" class="display-none">
+                        <div class="overlay"></div>
+                        <div class="popup" id="popup">
+                            
+                            
+                            <div id="popup-content">   
+                                    
+                                    
+                                    <h2 class="popTitle" id="title"></h2>
+                                    <button class="popup-close" id="closeButton" ><img  src="./img/desktop/popupclose.png" alt="close button"></button>
+                                    <ul id="technologies">
+                                        <li><button>html</button></li>
+                                        <li><button>bootstrap</button></li>
+                                        <li><button>Ruby on rails</button></li>
+                                    </ul><br>
+                                <div class="popgrid">
+                                    <div class="popup-left">
+                                        <img class="popup-image" src="./img/projects/todo_list.png" alt="">
+                                    </div>
+                                    <div class="popup-right"> 
+                                        <p class="popup-description" id="project-description"></p>
+                                        <ul id="project-live-source">
+                                            <li ><button id="see-live-btn"><a href="https://danielochuba.github.io/To-Do-Structure/dist/index.html"> See Live <img class="pop-icon" src="./img/desktop/sourcepop.png" alt="Live icon"></a></button></li>
+                                            <li><button id="see-source-btn"><a href="https://github.com/danielochuba/To-Do-Structure"> See Source <img class="pop-icon" src="./img/desktop/githubpop.png" alt="Git icon"></a></button></li>
+                                        </ul>
+                                    </div>  
+                                </div> 
+                            </div>
                         </div>
-                    </div>
                 </div>
 
            <section class="section_3" id="contact" >
@@ -204,7 +204,8 @@
                             <textarea name="" id="more-text" cols="30" rows="6" minlength="10" maxlength="500" placeholder="Enter text here" class="mob"  ></textarea>
                             <textarea name="" id="more-text" cols="80" rows="6" minlength="10" maxlength="500" placeholder="Enter text here" class="desk" ></textarea>
                             <small class="small-email"></small>
-                        </div><br>
+                        </div>
+                        <br>
                         <div class="field">
                             <button type="submit" class="submit">Get in touch</button>
                         </div><br>
@@ -222,8 +223,7 @@
                     </ul>
                 </div> 
           </section>
-          
+          <script src="./popupwindow.js"></script>
         <script src="./index.js"></script>
-        <script src="./popupwindow.js"></script>
     </body>
 </html>

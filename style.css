@@ -245,7 +245,8 @@ ul {
 }
 
 .tag {
-  border: 1px solid black;
+  border: 1px solid cadetblue;
+  background: cadetblue;
   padding: 3px;
 }
 
@@ -276,7 +277,19 @@ a {
   background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
-  width: 350px;
+  width: 326px;
+}
+
+.card-sec-m-1 {
+  background-image: url("./img/projects/todos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-sec-m-2 {
+  background-image: url("./img/projects/book_add_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cards {
@@ -711,7 +724,8 @@ small {
 }
 
 #popup {
-  max-width: 45vw;
+  width: 80%;
+  margin: auto;
 }
 
 .popup-close {
@@ -755,7 +769,7 @@ small {
 .popup {
   position: fixed;
   top: 50%;
-  left: 27%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
   background-color: #fff;

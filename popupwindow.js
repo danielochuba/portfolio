@@ -27,19 +27,19 @@ const projectDetails = [{
   liveLink: '#',
   sourceLink: '#',
   popUpDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  popUpImage: './img/desktop/popimage.png',
+  popUpImage: './img/projects/todo_list.png',
 },
 
 {
-  name: 'Profesional Art Printing Data',
+  name: 'To-Do List',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
 
   featuredImage: '',
   technologies: ['html', 'bootstrap', 'Ruby'],
-  liveLink: '#',
-  sourceLink: '#',
+  liveLink: 'https://danielochuba.github.io/To-Do-Structure/dist/index.html',
+  sourceLink: 'https://github.com/danielochuba/To-Do-Structure',
   popUpDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  popUpImage: './img/desktop/popimage.png',
+  popUpImage: './img/projects/todo_list.png',
 },
 {
   name: 'Profesional Art Printing Data',
@@ -108,9 +108,9 @@ firstCard.innerHTML += `
 const allCards = document.querySelector('.card-sec');
 
 allCards.innerHTML += `
- <div class="card-2 card card-sec-1">                           
- <h2 class="Title-post mob">Profesional Art Printing Data</h2>
- <h2 class="Title-post desk">Data Dashboard Healthcare</h2>
+ <div class="card-2 card card-sec-1 card-sec-m-1">                           
+ <h2 class="Title-post mob"></h2>
+ <h2 class="Title-post desk">Todo List App</h2>
  <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
 
 <div class="tags deskoff">
@@ -125,10 +125,10 @@ allCards.innerHTML += `
 </div>
 </div>              
 <div class="card-body"></div>
-<div class="card-3 card card-sec-2 card-fill">
- <h2 class="Title-post mob">Profesional Art Printing Data</h2>
+<div class="card-3 card card-sec-2 card-sec-m-2 card-fill">
+ <h2 class="Title-post mob"></h2>
  <h2 class="Title-post desk">Website Protfolio </h2>
- <p class="Supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+ <p class="Supporting-text">ugt</p>
 
 <div class="tags">
  <div >
@@ -244,3 +244,8 @@ projectBtns.forEach((btn) => {
     body1.style.overflow = 'hidden';
   });
 });
+
+function showModal (num) {
+
+}
+

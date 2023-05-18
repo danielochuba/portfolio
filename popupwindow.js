@@ -32,13 +32,13 @@ const projectDetails = [{
 
 {
   name: 'To-Do List',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  description: "This is a To-Do list app. It allows users to SAVE and DELETE tasks after input, MARK(check ✔) completed tasks, and Clear all completed tasks. It uses Local storage to store tasks, to avoid task loss after page reload or browser close.",
 
   featuredImage: '',
   technologies: ['html', 'bootstrap', 'Ruby'],
-  liveLink: 'https://danielochuba.github.io/To-Do-Structure/dist/index.html',
-  sourceLink: 'https://github.com/danielochuba/To-Do-Structure',
-  popUpDetail: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+  liveLink: 'https://danielochuba.github.io/TO-DO-LIST-M_R/dist/index.html',
+  sourceLink: 'https://github.com/danielochuba/TO-DO-LIST-M_R',
+  popUpDetail: "This is a To-Do list app. It allows users to SAVE and DELETE tasks after input, MARK(check ✔) completed tasks, and Clear all completed tasks. It uses Local storage to store tasks, to avoid task loss after page reload or browser close.",
   popUpImage: './img/projects/todo_list.png',
 },
 {

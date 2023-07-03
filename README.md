@@ -67,7 +67,7 @@
 
 
 
-- [Live Demo Link]( https://danielochuba.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link](https://danielochuba.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

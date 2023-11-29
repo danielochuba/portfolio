@@ -570,7 +570,7 @@ h3 {
   margin-left: -6%;
 }
 
-#name-input,
+#name,
 #email-input {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   width: 600px;
@@ -584,7 +584,7 @@ h3 {
   transition: border-color 0.2s;
 }
 
-#name-input:hover {
+#name:hover {
   transform: scale(1.1);
 }
 

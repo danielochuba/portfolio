@@ -73,7 +73,7 @@ form.addEventListener('submit', (event) => {
   if (hasUpperCase(form.elements['email-input'].value.trim())) {
     showError(form.elements['email-input'], EMAIL_INVALID_UPPERCASE);
   } else {
-    const nameValid = hasValue(form.elements['name-input'], NAME_REQUIRED);
+    const nameValid = hasValue(form.elements['name'], NAME_REQUIRED);
     const emailValid = validateEmail(form.elements['email-input'], EMAIL_REQUIRED, EMAIL_INVALID);
 
     if (nameValid && emailValid) {
@@ -86,7 +86,7 @@ form.addEventListener('submit', (event) => {
 // PRESERVE DATA IN BROWSER //
 
 const emailInput = document.getElementById('email-input');
-const nameInput = document.getElementById('name-input');
+const nameInput = document.getElementById('name');
 const areaInput = document.getElementById('more-text');
 
 const localObject = { name: '', email: '', textArea: '' };
